@@ -1,0 +1,73 @@
+#codes::-webkit-scrollbar-thumb:hover {
+    background: gold;
+}
+
+#codes::-webkit-scrollbar {
+    width: 15px;
+}
+
+#codes::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.459);
+}
+
+#leetcode-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    width: 74.8rem;
+}
+
+#questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    width: 74.8rem;
+}
+
+#text {
+    font-size: 60px;
+}
+
+#codes {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    height: 89vh;
+    width: 74.8rem;
+}
+
+#codes:hover {
+    overflow-y: scroll;
+}
+
+.box {
+    height: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 850px;
+    background-color: black;
+}
+
+#copy-to-clipboard {
+    float: right;
+    width: 30px;
+    cursor: pointer;
+}
+
+#code {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+code {
+    color: white;
+    font-size: 18px;
+}
+
+#code::-webkit-scrollbar {
+    display: none;
+}
