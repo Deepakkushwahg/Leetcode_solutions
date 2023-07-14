@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import '../css-style/Sidebar.css';
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://leetcode-solutions.onrender.com';
 export default function Sidebar() {
   const [data, setData] = useState([]);
   const getUsers = async ()=>{
