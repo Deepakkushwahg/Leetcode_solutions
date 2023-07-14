@@ -2,7 +2,7 @@ import React,{useEffect, useState} from 'react'
 import '../css-style/Codes.css';
 import copyImage from '../images/copy.png';
 import leetcode from '../images/leetcode.png'
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://leetcode-solutions.onrender.com';
 export default function Codes() {
 
   const handleCopy = (copyText)=>{
