@@ -1,6 +1,6 @@
 #sidebar {
     overflow-y: hidden;
-    width: 25%;
+    width: 30%;
     height: 85vh;
     margin-left: -1.5vw;
 }
@@ -41,4 +41,20 @@
 
 #sidebar::-webkit-scrollbar-thumb:hover {
     background: gold;
+}
+
+
+/* --------------- css for small screen -----------------------*/
+
+@media only screen and (max-width:800px) {
+    #sidebar {
+        margin-left: -8vw;
+        width: 45%;
+    }
+    #sidebar ul li {
+        margin-bottom: -3vw;
+    }
+    #questions-no li a {
+        margin-left: -9vw;
+    }
 }
