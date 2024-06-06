@@ -1,39 +1,41 @@
-#leetcode {
-    display: flex;
-    align-items: center;
-}
-
 nav {
     box-shadow: 1px 2px 2px gray;
-    position: relative;
+    position: fixed;
     display: flex;
-    justify-content: flex-end;
-    background-color: lightcyan;
+    justify-content: center;
+    height: 5vw;
+    width: 100%;
 }
 
-#header {
-    height: 75px;
-    width: 65%;
+#header,
+#leetcode {
+    width: 83%;
     display: flex;
-    padding-right: 20px;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
-#header h1 {
-    font-size: 28px;
-    margin-left: 10px;
+#leetcode {
+    width: 80%;
+    justify-content: center;
+}
+
+#leetcode h1 {
+    font-size: 1.9vw;
+    margin-left: 0.7vw;
     /* text-shadow: 1px -5px 5px rgba(21, 21, 21, 0.377), 1px 5px 5px rgba(21, 21, 21, 0.377); */
 }
 
 #profile {
     display: flex;
+    width: 17%;
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-size: 1vw;
     align-items: center;
 }
 
 #profile span {
-    margin-left: 5px;
+    margin-left: 0.4vw;
 }
