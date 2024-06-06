@@ -30,7 +30,7 @@ export default function Codes() {
   return (
     <div id="codes">
                 <div id="leetcode-logo">
-                    <img src={leetcode} alt="leetcode.png" width="300px"/>
+                    <img src={leetcode} alt="leetcode.png" width="25.5%"/>
                     <h1 id='text'>Leetcode Solutions</h1>
                 </div><br/><br/>
                 <div id='questions'>
